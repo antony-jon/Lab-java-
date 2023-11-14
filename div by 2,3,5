@@ -1,0 +1,15 @@
+
+public class Main{
+    public static void main(String [] args){
+        int count=0;
+        int a=1;
+        do{
+            if(a%2==0 && a%3==0 && a%5==0){
+                count++;
+                System.out.println(a);
+            }
+            a++;
+        }while(count!=5);
+        
+}
+}
