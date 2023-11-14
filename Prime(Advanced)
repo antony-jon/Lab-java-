@@ -1,0 +1,21 @@
+public class Main{
+    public static void main(String [] args){
+        int a = Integer.parseInt(args[0]);
+        int i=a;
+        if(a==1 || a==0){
+            System.out.println(a+" is neither prime nor composite");
+        }
+        else{
+        int count =0;
+        for(int j=3;j<i;i++){
+            if(i%j==0){
+                count++;
+            }
+        }
+        if(count==0){
+            System.out.println(a+" is Prime");
+        }
+        else{
+           System.out.println(a+" is Not Prime");
+        }}
+}}
