@@ -1,0 +1,13 @@
+
+public class conv{
+    public static void main(String [] args){
+        char i = "Args[0]".charAt(0);
+        if(Character.isUpperCase(i)){
+            System.out.println(Character.toLowerCase(i));
+        }
+        else{
+           
+         System.out.println(Character.toUpperCase(i));
+        }
+    }
+}
